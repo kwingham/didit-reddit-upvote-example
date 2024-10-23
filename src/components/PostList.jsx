@@ -41,3 +41,4 @@ export async function PostList({ currentPage = 1 }) {
     </>
   );
 }
+console.log("Database URL:", process.env.DB_URL);
